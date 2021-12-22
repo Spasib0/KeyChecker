@@ -36,32 +36,32 @@ namespace KeyCheckGui
             this.hardwareIdLabel = new System.Windows.Forms.Label();
             this.deviceIdInfo = new System.Windows.Forms.Label();
             this.deviceNameInfo = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.deviceNameLabel = new System.Windows.Forms.Label();
             this.modelInfo = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.modelLabel = new System.Windows.Forms.Label();
             this.graphicsNameInfo = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.graphicsNameLabel = new System.Windows.Forms.Label();
             this.deviceTypeInfo = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.deviceTypeLabel = new System.Windows.Forms.Label();
             this.graphicsSizeInfo = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
+            this.graphicsSizeLabel = new System.Windows.Forms.Label();
             this.graphicsVersionInfo = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
+            this.graphichsVersionLabel = new System.Windows.Forms.Label();
             this.osInfo = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
+            this.osLabel = new System.Windows.Forms.Label();
             this.processorInfo = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
+            this.processotNameLabel = new System.Windows.Forms.Label();
             this.checkButton = new System.Windows.Forms.Button();
             this.productBox = new System.Windows.Forms.ComboBox();
             this.elementInfo = new System.Windows.Forms.GroupBox();
             this.pricessorGroup = new System.Windows.Forms.GroupBox();
             this.ramGroup = new System.Windows.Forms.GroupBox();
             this.ramInfo = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.ramSizeLabel = new System.Windows.Forms.Label();
             this.graphicsGroup = new System.Windows.Forms.GroupBox();
             this.deviceGroup = new System.Windows.Forms.GroupBox();
             this.chekKeyGroup = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.productLabel = new System.Windows.Forms.Label();
             this.serverGroup = new System.Windows.Forms.GroupBox();
             this.authorizationButton = new System.Windows.Forms.Button();
             this.authIcon = new System.Windows.Forms.Label();
@@ -153,17 +153,17 @@ namespace KeyCheckGui
             this.deviceNameInfo.TabIndex = 10;
             this.deviceNameInfo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label6
+            // deviceNameLabel
             // 
-            this.label6.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(6, 88);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(80, 23);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "Name :";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label6.UseMnemonic = false;
+            this.deviceNameLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.deviceNameLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.deviceNameLabel.Location = new System.Drawing.Point(6, 88);
+            this.deviceNameLabel.Name = "deviceNameLabel";
+            this.deviceNameLabel.Size = new System.Drawing.Size(80, 23);
+            this.deviceNameLabel.TabIndex = 9;
+            this.deviceNameLabel.Text = "Name :";
+            this.deviceNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.deviceNameLabel.UseMnemonic = false;
             // 
             // modelInfo
             // 
@@ -177,17 +177,17 @@ namespace KeyCheckGui
             this.modelInfo.TabIndex = 8;
             this.modelInfo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label8
+            // modelLabel
             // 
-            this.label8.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label8.Location = new System.Drawing.Point(6, 111);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(80, 23);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "Model :";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label8.UseMnemonic = false;
+            this.modelLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.modelLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.modelLabel.Location = new System.Drawing.Point(6, 111);
+            this.modelLabel.Name = "modelLabel";
+            this.modelLabel.Size = new System.Drawing.Size(80, 23);
+            this.modelLabel.TabIndex = 7;
+            this.modelLabel.Text = "Model :";
+            this.modelLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.modelLabel.UseMnemonic = false;
             // 
             // graphicsNameInfo
             // 
@@ -199,17 +199,17 @@ namespace KeyCheckGui
             this.graphicsNameInfo.TabIndex = 14;
             this.graphicsNameInfo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label10
+            // graphicsNameLabel
             // 
-            this.label10.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label10.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label10.Location = new System.Drawing.Point(6, 19);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(74, 23);
-            this.label10.TabIndex = 13;
-            this.label10.Text = "Name :";
-            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label10.UseMnemonic = false;
+            this.graphicsNameLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.graphicsNameLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.graphicsNameLabel.Location = new System.Drawing.Point(6, 19);
+            this.graphicsNameLabel.Name = "graphicsNameLabel";
+            this.graphicsNameLabel.Size = new System.Drawing.Size(74, 23);
+            this.graphicsNameLabel.TabIndex = 13;
+            this.graphicsNameLabel.Text = "Name :";
+            this.graphicsNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.graphicsNameLabel.UseMnemonic = false;
             // 
             // deviceTypeInfo
             // 
@@ -221,17 +221,17 @@ namespace KeyCheckGui
             this.deviceTypeInfo.TabIndex = 12;
             this.deviceTypeInfo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label12
+            // deviceTypeLabel
             // 
-            this.label12.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label12.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label12.Location = new System.Drawing.Point(6, 42);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(80, 23);
-            this.label12.TabIndex = 11;
-            this.label12.Text = "Type :";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label12.UseMnemonic = false;
+            this.deviceTypeLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.deviceTypeLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.deviceTypeLabel.Location = new System.Drawing.Point(6, 42);
+            this.deviceTypeLabel.Name = "deviceTypeLabel";
+            this.deviceTypeLabel.Size = new System.Drawing.Size(80, 23);
+            this.deviceTypeLabel.TabIndex = 11;
+            this.deviceTypeLabel.Text = "Type :";
+            this.deviceTypeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.deviceTypeLabel.UseMnemonic = false;
             // 
             // graphicsSizeInfo
             // 
@@ -243,17 +243,17 @@ namespace KeyCheckGui
             this.graphicsSizeInfo.TabIndex = 18;
             this.graphicsSizeInfo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label14
+            // graphicsSizeLabel
             // 
-            this.label14.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label14.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label14.Location = new System.Drawing.Point(6, 42);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(74, 23);
-            this.label14.TabIndex = 17;
-            this.label14.Text = "Size :";
-            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label14.UseMnemonic = false;
+            this.graphicsSizeLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.graphicsSizeLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.graphicsSizeLabel.Location = new System.Drawing.Point(6, 42);
+            this.graphicsSizeLabel.Name = "graphicsSizeLabel";
+            this.graphicsSizeLabel.Size = new System.Drawing.Size(74, 23);
+            this.graphicsSizeLabel.TabIndex = 17;
+            this.graphicsSizeLabel.Text = "Size :";
+            this.graphicsSizeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.graphicsSizeLabel.UseMnemonic = false;
             // 
             // graphicsVersionInfo
             // 
@@ -267,17 +267,17 @@ namespace KeyCheckGui
             this.graphicsVersionInfo.TabIndex = 16;
             this.graphicsVersionInfo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label16
+            // graphichsVersionLabel
             // 
-            this.label16.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label16.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label16.Location = new System.Drawing.Point(6, 65);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(74, 23);
-            this.label16.TabIndex = 15;
-            this.label16.Text = "Version :";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label16.UseMnemonic = false;
+            this.graphichsVersionLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.graphichsVersionLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.graphichsVersionLabel.Location = new System.Drawing.Point(6, 65);
+            this.graphichsVersionLabel.Name = "graphichsVersionLabel";
+            this.graphichsVersionLabel.Size = new System.Drawing.Size(74, 23);
+            this.graphichsVersionLabel.TabIndex = 15;
+            this.graphichsVersionLabel.Text = "Version :";
+            this.graphichsVersionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.graphichsVersionLabel.UseMnemonic = false;
             // 
             // osInfo
             // 
@@ -291,17 +291,17 @@ namespace KeyCheckGui
             this.osInfo.TabIndex = 20;
             this.osInfo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label18
+            // osLabel
             // 
-            this.label18.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label18.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label18.Location = new System.Drawing.Point(6, 65);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(80, 23);
-            this.label18.TabIndex = 19;
-            this.label18.Text = "OS :";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label18.UseMnemonic = false;
+            this.osLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.osLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.osLabel.Location = new System.Drawing.Point(6, 65);
+            this.osLabel.Name = "osLabel";
+            this.osLabel.Size = new System.Drawing.Size(80, 23);
+            this.osLabel.TabIndex = 19;
+            this.osLabel.Text = "OS :";
+            this.osLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.osLabel.UseMnemonic = false;
             // 
             // processorInfo
             // 
@@ -315,17 +315,17 @@ namespace KeyCheckGui
             this.processorInfo.TabIndex = 22;
             this.processorInfo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label20
+            // processotNameLabel
             // 
-            this.label20.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label20.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label20.Location = new System.Drawing.Point(6, 19);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(74, 23);
-            this.label20.TabIndex = 21;
-            this.label20.Text = "Name :";
-            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label20.UseMnemonic = false;
+            this.processotNameLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.processotNameLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.processotNameLabel.Location = new System.Drawing.Point(6, 19);
+            this.processotNameLabel.Name = "processotNameLabel";
+            this.processotNameLabel.Size = new System.Drawing.Size(74, 23);
+            this.processotNameLabel.TabIndex = 21;
+            this.processotNameLabel.Text = "Name :";
+            this.processotNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.processotNameLabel.UseMnemonic = false;
             // 
             // checkButton
             // 
@@ -366,7 +366,7 @@ namespace KeyCheckGui
             // pricessorGroup
             // 
             this.pricessorGroup.Controls.Add(this.processorInfo);
-            this.pricessorGroup.Controls.Add(this.label20);
+            this.pricessorGroup.Controls.Add(this.processotNameLabel);
             this.pricessorGroup.Location = new System.Drawing.Point(6, 351);
             this.pricessorGroup.Name = "pricessorGroup";
             this.pricessorGroup.Size = new System.Drawing.Size(409, 55);
@@ -377,7 +377,7 @@ namespace KeyCheckGui
             // ramGroup
             // 
             this.ramGroup.Controls.Add(this.ramInfo);
-            this.ramGroup.Controls.Add(this.label4);
+            this.ramGroup.Controls.Add(this.ramSizeLabel);
             this.ramGroup.Location = new System.Drawing.Point(6, 290);
             this.ramGroup.Name = "ramGroup";
             this.ramGroup.Size = new System.Drawing.Size(409, 55);
@@ -397,26 +397,26 @@ namespace KeyCheckGui
             this.ramInfo.TabIndex = 22;
             this.ramInfo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label4
+            // ramSizeLabel
             // 
-            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(6, 19);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(74, 23);
-            this.label4.TabIndex = 21;
-            this.label4.Text = "Size :";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label4.UseMnemonic = false;
+            this.ramSizeLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.ramSizeLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ramSizeLabel.Location = new System.Drawing.Point(6, 19);
+            this.ramSizeLabel.Name = "ramSizeLabel";
+            this.ramSizeLabel.Size = new System.Drawing.Size(74, 23);
+            this.ramSizeLabel.TabIndex = 21;
+            this.ramSizeLabel.Text = "Size :";
+            this.ramSizeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.ramSizeLabel.UseMnemonic = false;
             // 
             // graphicsGroup
             // 
             this.graphicsGroup.Controls.Add(this.graphicsSizeInfo);
-            this.graphicsGroup.Controls.Add(this.label10);
+            this.graphicsGroup.Controls.Add(this.graphicsNameLabel);
             this.graphicsGroup.Controls.Add(this.graphicsNameInfo);
-            this.graphicsGroup.Controls.Add(this.label16);
+            this.graphicsGroup.Controls.Add(this.graphichsVersionLabel);
             this.graphicsGroup.Controls.Add(this.graphicsVersionInfo);
-            this.graphicsGroup.Controls.Add(this.label14);
+            this.graphicsGroup.Controls.Add(this.graphicsSizeLabel);
             this.graphicsGroup.Location = new System.Drawing.Point(6, 180);
             this.graphicsGroup.Name = "graphicsGroup";
             this.graphicsGroup.Size = new System.Drawing.Size(409, 104);
@@ -430,12 +430,12 @@ namespace KeyCheckGui
             this.deviceGroup.Controls.Add(this.osInfo);
             this.deviceGroup.Controls.Add(this.deviceTypeInfo);
             this.deviceGroup.Controls.Add(this.deviceNameInfo);
-            this.deviceGroup.Controls.Add(this.label18);
+            this.deviceGroup.Controls.Add(this.osLabel);
             this.deviceGroup.Controls.Add(this.modelInfo);
-            this.deviceGroup.Controls.Add(this.label12);
-            this.deviceGroup.Controls.Add(this.label6);
+            this.deviceGroup.Controls.Add(this.deviceTypeLabel);
+            this.deviceGroup.Controls.Add(this.deviceNameLabel);
             this.deviceGroup.Controls.Add(this.deviceIdInfo);
-            this.deviceGroup.Controls.Add(this.label8);
+            this.deviceGroup.Controls.Add(this.modelLabel);
             this.deviceGroup.Location = new System.Drawing.Point(6, 22);
             this.deviceGroup.Name = "deviceGroup";
             this.deviceGroup.Size = new System.Drawing.Size(409, 152);
@@ -445,7 +445,7 @@ namespace KeyCheckGui
             // 
             // chekKeyGroup
             // 
-            this.chekKeyGroup.Controls.Add(this.label1);
+            this.chekKeyGroup.Controls.Add(this.productLabel);
             this.chekKeyGroup.Controls.Add(this.productBox);
             this.chekKeyGroup.Controls.Add(this.checkButton);
             this.chekKeyGroup.Location = new System.Drawing.Point(13, 533);
@@ -455,17 +455,17 @@ namespace KeyCheckGui
             this.chekKeyGroup.TabStop = false;
             this.chekKeyGroup.Text = "Check key for product";
             // 
-            // label1
+            // productLabel
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(6, 22);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 23);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Product :";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label1.UseMnemonic = false;
+            this.productLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.productLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.productLabel.Location = new System.Drawing.Point(6, 22);
+            this.productLabel.Name = "productLabel";
+            this.productLabel.Size = new System.Drawing.Size(80, 23);
+            this.productLabel.TabIndex = 6;
+            this.productLabel.Text = "Product :";
+            this.productLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.productLabel.UseMnemonic = false;
             // 
             // serverGroup
             // 
@@ -629,7 +629,6 @@ namespace KeyCheckGui
             this.resultGroup.ResumeLayout(false);
             this.resultGroup.PerformLayout();
             this.ResumeLayout(false);
-
         }
 
         #endregion
@@ -640,21 +639,21 @@ namespace KeyCheckGui
         private System.Windows.Forms.Label hardwareIdLabel;
         private System.Windows.Forms.Label deviceIdInfo;
         private System.Windows.Forms.Label deviceNameInfo;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label deviceNameLabel;
         private System.Windows.Forms.Label modelInfo;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label modelLabel;
         private System.Windows.Forms.Label graphicsNameInfo;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label graphicsNameLabel;
         private System.Windows.Forms.Label deviceTypeInfo;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label deviceTypeLabel;
         private System.Windows.Forms.Label graphicsSizeInfo;
-        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label graphicsSizeLabel;
         private System.Windows.Forms.Label graphicsVersionInfo;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label graphichsVersionLabel;
         private System.Windows.Forms.Label osInfo;
-        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label osLabel;
         private System.Windows.Forms.Label processorInfo;
-        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label processotNameLabel;
         private System.Windows.Forms.Button checkButton;
         private System.Windows.Forms.ComboBox productBox;
         private System.Windows.Forms.GroupBox elementInfo;
@@ -662,7 +661,7 @@ namespace KeyCheckGui
         private System.Windows.Forms.GroupBox pricessorGroup;
         private System.Windows.Forms.GroupBox graphicsGroup;
         private System.Windows.Forms.GroupBox chekKeyGroup;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label productLabel;
         private System.Windows.Forms.GroupBox serverGroup;
         private System.Windows.Forms.ComboBox serversBox;
         private System.Windows.Forms.Label authIcon;
@@ -677,6 +676,6 @@ namespace KeyCheckGui
         private System.Windows.Forms.Label errorText;
         private System.Windows.Forms.GroupBox ramGroup;
         private System.Windows.Forms.Label ramInfo;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label ramSizeLabel;
     }
 }

@@ -18,8 +18,5 @@ namespace KeyCheckGui
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new KeyChecker());
         }
-
-
-
     }
 }

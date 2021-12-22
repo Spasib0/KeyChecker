@@ -101,7 +101,6 @@ namespace KeyCheckGui
             this.Text = "\"{0}\"";
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion
