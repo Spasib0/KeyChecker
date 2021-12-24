@@ -103,6 +103,7 @@ namespace KeyCheckGui
             this.deviceList.TabIndex = 2;
             this.deviceList.UseCompatibleStateImageBehavior = false;
             this.deviceList.View = System.Windows.Forms.View.Details;
+            this.deviceList.ColumnClick += OnColumnClick;
             this.deviceList.SelectedIndexChanged += new System.EventHandler(this.OnDeviceListItemSelected);
             // 
             // idColumnHeader
@@ -629,6 +630,7 @@ namespace KeyCheckGui
             this.resultGroup.ResumeLayout(false);
             this.resultGroup.PerformLayout();
             this.ResumeLayout(false);
+
         }
 
         #endregion

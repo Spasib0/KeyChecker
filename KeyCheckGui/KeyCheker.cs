@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Drawing;
@@ -53,6 +54,7 @@ namespace KeyCheckGui
         private void SetButtonState(Button button, bool state, Label icon = null)
         {
             button.Enabled = state;
+            AcceptButton = state ? button : null;
 
             if (icon != null)
             {
@@ -201,6 +203,26 @@ namespace KeyCheckGui
                 var userData = JsonSerializer.DeserializeAsync<UserData>(response.Content.ReadAsStreamAsync().Result).Result;
 
                 UpdateDevicesList(CurrentServer, Key, userData.user.hardwares);
+            }
+        }
+
+        private void OnColumnClick(object sender, ColumnClickEventArgs e)
+        {
+            deviceList.ListViewItemSorter = new ListViewItemComparer(e.Column);
+        }
+
+        class ListViewItemComparer : IComparer
+        {
+            private int col;
+
+            public ListViewItemComparer(int column)
+            {
+                col = column;
+            }
+
+            public int Compare(object x, object y)
+            {
+                return string.Compare(((ListViewItem)x).SubItems[col].Text, ((ListViewItem)y).SubItems[col].Text);
             }
         }
 
